@@ -11,4 +11,5 @@ By default, generates with `seed` = 1, `student` = "A01234567X" and `mode` = "Ex
 ## Generate output
 
 `pdflatex "\def\seed{1}\def\mode{Exam}\def\user{A01234567X} \input{exam.tex}"`
+
 `pdflatex "\def\seed{2}\def\mode{Answer}\def\user{A9876544Y} \input{exam.tex}"`
