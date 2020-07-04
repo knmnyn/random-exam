@@ -6,7 +6,7 @@ Use `pdflatex` with a string input that defines two variables:
 * `user`: Constant for the user.  Meant for Student identifiers (e.g., Matric).
 * `mode`: Generation Mode.  Meant for conditional document generation.  i.e., decide whether to create the `exam` or the `solution`.
 
-By default, generates with `seed` = 1, `student` = "A01234567X" and `mode` = "Exam".
+By default, generates with `seed` = 1, `user` = "A01234567X" and `mode` = "Exam".
 
 ## Generate output
 
